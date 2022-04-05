@@ -365,6 +365,19 @@ section .title::after{
 .skills-content .right .html::before{
     width: 90%;
 }
+
+.skills-content .right .code::before{
+    width: 85%;
+}
+
+.skills-content .right .python::before{
+    width: 50%;
+}
+
+.skills-content .right .symph::before{
+    width: 75%;
+}
+
 .skills-content .right .css::before{
     width: 60%;
 }
