@@ -166,11 +166,21 @@ section .title::after{
 .home{
     display: flex;
     background: url("images/grosplan.jpg") no-repeat center;
-    height: 100vh;
+    height: 50vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.grp{
+    display: flex;
+    background: url("images/Dev IT.png") no-repeat center;
+    /* height: 100vh; */
+    /* color: #fff; */
+    min-height: 500px;
+    background-size: cover;
+    /* background-attachment: fixed; */
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
@@ -234,11 +244,23 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+.about .about-content .grps .text{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .grps .text span{
+    color: crimson;
+}
 .about .about-content .right .text span{
     color: crimson;
 }
 .about .about-content .right p{
     text-align: justify;
+}
+.about .about-content .grps p{
+    text-align: justify;
+    font-size: 22px;
 }
 .about .about-content .right a{
     display: inline-block;
